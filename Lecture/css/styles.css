@@ -1,0 +1,27 @@
+/*================ tag selector =================*/
+h1{
+    color: red;
+}
+
+img:hover{   /* sudo attribute */
+    background-color: rgb(255, 0, 255);
+}
+
+/*================ class selector =================*/
+.bacon{
+    background-color: green;
+}
+.broccoli{
+    background-color: red;
+}
+
+/*================ id selector =================*/
+
+#heading{
+    color: green;
+}
+
+
+/* id > class > tag */
+/* every tag have unique id in a page */
+/* multiple tag have same class */
