@@ -1,0 +1,155 @@
+body{
+    background-color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h1{
+    color: #66BFBF;
+    margin: 0;
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+    line-height: 2;
+    /* em is dynamic, 1em 16px, it inherits from parent eg if parent is 10 then in child it will multiply 10*child's value */
+    /* rem is independent of parent */
+    /* font-size: 100px;  here px is static */
+
+}
+h2{
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+
+}
+h3{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    color: #40514E;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.top-container{
+    background-color: #EAF6F6;
+    padding: 100px;
+}
+
+.middle-container{
+    background-color: white;
+}
+.bottom-container{
+    /* margin-top: 50px; */
+    background-color: #2bc4ad;
+    padding: 50px;
+    line-height: 20px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 500px;
+    /* bottom: 300px; */
+}
+.top-cloud{
+    position: absolute;
+    right: 500px;
+    top: 50px;
+
+}
+a{
+    color: #11999E;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+a:hover{
+    color: #b1f3f6;
+}
+
+.profile{
+    margin-bottom: 5%;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    /* clockwise */
+}
+.profile-pic{
+    border-radius: 100%;
+    margin-top: 50px;
+}
+.computer{
+    width: 25%;
+    float: left;
+    /* border-radius: 100%; */
+    margin-right: 30px;
+}
+.chillies{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+    border-radius: 100%;
+
+}
+/* .computer-description{
+    clear: left;
+}
+.chillies-description{
+    clear: right;
+} */
+
+.btn {
+    background: #11999e;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+
+  }
+  
+.btn:hover {
+    background: #2bc4ad;
+    text-decoration: none;
+}
+
+.footer-link{
+    margin: 50px;
+}
+.copyright{
+    color: white;
+    font-size: 0.8em;
+}
+hr{
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
+}
+.contact-me{
+    line-height: 1.5;
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+    line-height: 2;
+}
+.contact-msg{
+    width: 30%;
+    margin: 40px auto 60px;
+    line-height: 2;
+}
+
+  /* Change the border-radius to 8
+
+Start gradient colour: #11cdd4
+
+End gradient colour: #11999e
+
+Hover start colour: #30e3cb
+
+Hover end colour: #2bc4ad */

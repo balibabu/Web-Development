@@ -1,5 +1,4 @@
 @ECHO OFF
-ECHO ==== Timeline =====
 ECHO Auto pulling, adding, commiting and pushing on Github.
 ECHO ===================================================================================
 

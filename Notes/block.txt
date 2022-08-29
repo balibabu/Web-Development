@@ -1,0 +1,12 @@
+Block Elements
+<p>
+<h1> .. <h6> header tags
+
+Inline elements
+spans	<span>
+images <img>
+anchors <a>
+
+we change  anyones property by:
+display : inline, block, inline-block, none
+
