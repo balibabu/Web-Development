@@ -1,0 +1,9 @@
+container:
+<div class="container-fluid">
+asbasj
+
+</div>
+
+.container-fluid{
+    padding: 3% 15%;
+}
