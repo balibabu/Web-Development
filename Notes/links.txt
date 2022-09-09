@@ -3,3 +3,6 @@ https://www.codeply.com/p
 
 bootstrap
 https://getbootstrap.com/docs/4.5/getting-started/introduction/
+
+icons in button or text
+https://icons.getbootstrap.com/
