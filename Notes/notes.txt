@@ -1,0 +1,4 @@
+css media query to make page responsive
+
+hierarchical selectors
+combined selectors

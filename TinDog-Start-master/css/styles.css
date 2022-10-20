@@ -8,7 +8,8 @@ body{
     background-color: #ff4c68;
 }
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
+
 }
 h1{
     font-family: 'Montserrat', sans-serif;
@@ -53,17 +54,25 @@ h1{
 .title-img{
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+    /* z-index: 0; */
     
 }
 
 /* Features  */
 #features{
     color: black;
-    margin: 7% 15%;
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+
 }
 .feature-box{
     text-align: center;
     padding: 5%;
+    
 }
 
 .bi-check-circle-fill,.bi-bullseye,.bi-heart-fill{
@@ -127,4 +136,40 @@ h2{
 .pricing-column{
     text-align: center;
     padding: 3% 2%;
+}
+
+@media (max-width:1000px){
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* <!-- Call to Action --> */
+
+#cta{
+    background-color: #ff4c68;
+    padding: 5% 20%;
+    text-align: center;
+}
+#octa-heading{
+    color: white;
+}
+
+/* footer  */
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon,.p{
+    color: black;
+    padding: 20px 10px;
+}
+
+#footer p{   /*hierarchical selectors*/
+    padding: 20px 10px;
 }
