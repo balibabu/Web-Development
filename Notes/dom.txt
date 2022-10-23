@@ -1,0 +1,3 @@
+document.querySelector('h1').style.color='red';
+document.querySelector('h1').textContent='bali';
+document.querySelector('h1').innerHTML=winner;
