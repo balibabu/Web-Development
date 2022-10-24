@@ -4,10 +4,6 @@ for(var i=0;i<document.querySelectorAll('.drum').length;i++){
 }
 
 
-function clickHandle(){
-    makeSound(this.textContent);
-    buttonAnimation(this.textContent)
-}
 
 document.addEventListener('keypress',function(event){
     makeSound(event.key.toLowerCase());
@@ -15,6 +11,10 @@ document.addEventListener('keypress',function(event){
 });
 
 
+function clickHandle(){
+    makeSound(this.textContent);
+    buttonAnimation(this.textContent)
+}
 
 function makeSound(key){
     switch (key) {
