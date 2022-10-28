@@ -1,1 +1,8 @@
 .*
+
+
+# ignoring node_modules
+/node_modules
+npm-debug.log
+.DS_Store
+/*.env

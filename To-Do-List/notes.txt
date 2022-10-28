@@ -1,0 +1,16 @@
+coding in html
+=========================================
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Seven Days</title>
+    </head>
+    <body>
+        <% if(typeOfDay === "weekend"){ %>
+            <h1 style="color: green;">Today is <%= typeOfDay %></h1>
+        <% }else{ %>
+            <h1 style="color: red;">Today is <%= typeOfDay %></h1>
+        <% } %>
+    </body>
+</html>
